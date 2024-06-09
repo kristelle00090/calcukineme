@@ -6,16 +6,7 @@ function appendToResult(value) {
 }
 
 function calculate() {
-  try {
-    const result = eval(expression);
-    if (result === 8) {
-      document.getElementById('result').value = 'i miss you';
-    } else {
-      document.getElementById('result').value = result;
-    }
-  } catch (error) {
-    document.getElementById('result').value = 'Error';
-  }
+  document.getElementById('result').value = 'I miss you';
 }
 
 function clearResult() {
