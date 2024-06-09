@@ -9,7 +9,7 @@ function calculate() {
   try {
     const result = eval(expression);
     if (result === 8) {
-      document.getElementById('result').value = 'I miss you';
+      document.getElementById('result').value = 'i miss you';
     } else {
       document.getElementById('result').value = result;
     }
